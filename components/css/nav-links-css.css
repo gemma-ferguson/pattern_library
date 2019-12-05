@@ -1,0 +1,101 @@
+/*------LINK STYLE------*/
+h1, h2, h3{
+    margin: 2em 0 1em 0;
+}
+
+a{
+    color: #8EC1FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+    border-bottom: 1px dotted;
+}
+
+p{font-family: 'Open Sans', sans-serif;}
+
+p, blockquote {
+    margin-bottom:1.5em;
+    line-height: 1.4;
+}
+
+blockquote {
+    font-size: 1.414em;
+    hanging-punctuation: first;
+    text-indent: -0.42em;
+    color: #47607F;
+}
+
+cite {
+    font-size: 0.9em;
+}
+
+/*----icons-----*/
+
+.connections ul {
+    margin: 0;
+    padding: 0;
+}
+
+.connections li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.connections a:link {
+    border-bottom: none;
+}
+
+.connections img{
+    opacity: 0.5;
+    border: none;
+}
+
+.connections a:hover img{
+    opacity: 1.0;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out
+}
+/*-----NAVIGATION----*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #DAEAFF;
+    padding: 1em 0;
+    font-size: 0.75em;
+    opacity: 95%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------UL-NAV------*/
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 39px;
+}
+
+nav a {
+    color: #47607F;
+}
+
+nav a:visited {
+    color: #47607F;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color:black;
+}
