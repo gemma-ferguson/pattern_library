@@ -13,24 +13,6 @@ a:hover {
     border-bottom: 1px dotted;
 }
 
-p{font-family: 'Open Sans', sans-serif;}
-
-p, blockquote {
-    margin-bottom:1.5em;
-    line-height: 1.4;
-}
-
-blockquote {
-    font-size: 1.414em;
-    hanging-punctuation: first;
-    text-indent: -0.42em;
-    color: #47607F;
-}
-
-cite {
-    font-size: 0.9em;
-}
-
 /*----icons-----*/
 
 .connections ul {
@@ -58,6 +40,42 @@ cite {
     opacity: 1.0;
     border-bottom: none;
     transition: all 0.3s ease-in-out
+}
+
+.top-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-link li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.top-link a:link {
+    border-bottom: none;
+}
+
+.top-link img{
+    opacity: 0.5;
+    border: none;
+    height: 150%;
+    width: 150%;
+}
+
+.top-link a:hover img{
+    opacity: 1.0;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out
+}
+
+.top-link {
+    position: fixed;
+    bottom: -20px;
+    right: -60px;
+    width: 200px;
 }
 /*-----NAVIGATION----*/
 
